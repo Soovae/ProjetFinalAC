@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/e75dcbbce0.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <title>Accueil</title>
 </head>
 <body>
     
@@ -33,7 +33,7 @@
                             <a class="nav-link" href="./html/contact.html"><span class="text-warning">Contact</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/exercice.html"><span class="text-warning">Exercices</span></a>
+                            <a class="nav-link" href="./html/exercice.html"><span class="text-warning">Epreuves</span></a>
                         </li>
                     </ul>
                 </div>
@@ -49,20 +49,51 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-3">
-                <p id="bienvenu">Bienvenus en terres d'Hyrule, voyageurs !</p>
+                <p id="bienvenu">Bienvenu en terres d'Hyrule, voyageurs !</p>
             </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col-5">
-                <h2>Partez à l'aventure, explorer des contrées sans fin, affrontez un mal ancestral et sauvez la princesse !</h2>
+            <div class="col-7 my-3">
+                <h2 class="fs-4">Partez à l'aventure, explorer des contrées sans fin, affrontez un mal ancestral et sauvez la princesse !</h2>
             </div>
         </div>
+
+
+        <!--ancres-->
+
+        <div id="ancre" class="container">
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <div class="accordion pb-5" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Sommaire
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a class="text-decoration-none text-danger" href="#cards">Personnages principaux</a></li>
+                                        <li><a class="text-decoration-none text-danger" href="#sdj">Système de jeu</a></li>
+                                        <li><a class="text-decoration-none text-danger" href="#qp">Quête principale</a></li>
+                                        <li><a class="text-decoration-none text-danger" href="#qs">Quêtes secondaires</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
 
         <!--card link + zelda-->
 
         <div class="container">
-            <div class="row">
-                <h2>Présentation rapide de des personnages.</h2>
+            <div id="cards" class="row">
+                <h2>Présentation rapide des personnages.</h2>
             </div>
 
         </div>
@@ -101,7 +132,7 @@
 
         <div class="row mt-5 justify-content-center">
             <div class="col-3">
-                <h2>Système de jeu</h2>
+                <h3 id="sdj">Système de jeu</h3>
             </div>    
             <div class="col-6 pt-3">
                 <p>Le jeu The Legend of Zelda est un jeu d'action-aventure où le joueur incarne continuellement un personnage prénommé Link.
@@ -132,14 +163,14 @@
                 D’autre part, la traversée d’un nouveau territoire est souvent difficile pour donner lieu à des énigmes ou tester les capacités du joueur. Cela dit, le jeu est réalisé de telle sorte que les traversées suivantes seront plus faciles (parce que le chemin est déblayé au premier passage, ou grâce à de nouveaux objets, ou parce que les populations locales deviennent amicales).</p>
             </div>
             <div class="col-3 pt-4 mt-2">
-                <h2>Quête principale</h2>
+                <h3 id="qp">Quête principale</h3>
             </div>
 
             <div class="row mt-5 justify-content-center">
                 <div class="col-3">
-                    <h2>Quêtes secondaires</h2>
+                    <h3 id="qs">Quêtes secondaires</h3>
                 </div> 
-                <div class="col-6 pt-3">
+                <div class="col-6 py-3">
                     <p>L’une des particularités de The Legend of Zelda est le nombre important de quêtes secondaires, ou quêtes annexes, qui rendent le jeu moins linéaire. Puisque le monde dans lequel le jeu se passe est persistant, il est possible de retarder la résolution de ces énigmes. Ces quêtes ne sont pas indispensables mais permettent d’obtenir un objet qui rend le jeu plus facile. On peut classer ces quêtes selon les catégories suivantes :
 
                         Retrouver un ensemble d’objets donnés : la quête des fragments de cœurs qui permet d’obtenir un conteneur de vie supplémentaire tous les quatre (cinq dans Twilight Princess, des réceptacles de cœur [cœur entier] dans Phantom Hourglass) fragments trouvés, la quête des coquillages dans Link's Awakening qui permet d’obtenir une épée plus puissante à partir de 20 coquillages, la recherche des insectes dorés dans The Legend of Zelda: Twilight Princess qui permet d’obtenir une plus grosse bourse et des rubis supplémentaires, ou encore la quête des cent skulltulas d’or de Ocarina of Time.
