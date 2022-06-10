@@ -18,3 +18,29 @@
     width: 100px;
     height: 100px;
 }
+#titreaccueil{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+    text-decoration: underline;
+    border: 2px dotted gold;
+    padding: 15px;
+}
+
+#bienvenu{
+    display: block;
+    position: relative;
+    background-color: gray;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+#corps{
+    background-image: url("../img/bgaccueil.jpg");
+    background-size: cover ;
+    padding-left: 5%;
+    padding-right: 5%;
+}
