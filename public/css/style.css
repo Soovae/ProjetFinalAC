@@ -85,7 +85,9 @@ input:focus, textarea:focus{
     margin-right:250px;
 }
 
-
+.body-contact{
+    background-color:grey;
+}
 
 .back-contact{
     background-color:white;
