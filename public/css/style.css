@@ -5,7 +5,7 @@ h1{
 
 .portfolio{
     background-color:grey;
-    margin-top:50px;
+    margin-top: 50px;
     margin-right:100px;
     margin-left:100px;
     text-align:center;
@@ -50,6 +50,10 @@ a:hover{
     color:white;
 }
 
+#titrepage{
+    margin-top: 80px;
+}
+
 /* Formulaire de contact */
 
 input[type=text], input[type=email], select, textarea{
@@ -81,16 +85,14 @@ input:focus, textarea:focus{
     margin-right:250px;
 }
 
-.body-contact{
-    background-color:grey;
-}
+
 
 .back-contact{
     background-color:white;
-    margin-left:100px;
-    margin-right:100px;
     padding-top:50px;
     padding-bottom:50px;
+    z-index: 3;
+    margin-top: 50px;
 }
 
 #border-map{
@@ -104,4 +106,37 @@ input:focus, textarea:focus{
     margin-top:50px;
     margin-bottom:50px;
     text-align:center;  
+}
+
+/*nav*/
+#bdn{
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    display: block;
+    font-size: larger;
+    z-index: 5;
+    
+}
+.nav-item{
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+.nav-link:hover{
+    color: red;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+/*footer*/
+
+#textfooter{
+    color: gold;
+}
+.fa-brands, .fa-discord{
+    color: purple;
 }
