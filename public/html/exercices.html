@@ -49,22 +49,50 @@
         </div>
     </nav>
 
-    <div id="body" class="container">
-        <h1>Presentation des exercices de la semaine</h1>
-        <h2>Les outils necessaires</h2>
-        <p>Pour executé les commandes Bash il vous faut un terminal de commandes (un peu comme le CMD de windows)
-            Vous pouvez utilisé l'OS Linux/Ubuntu ou encore télécharger le terminal Git Bash.
-        </p>
-        <h3>Exercice 1 Bash</h3>
-        <p>Dans le premier exercice, nous devions créer un dossier "LinuxBash" et créer 5 sous dossiers nommés Jour 1 à
-            Jour 5 en une seule ligne de commande.</p>
-        <p>cela doit ressembler à ceci:</p>
-        <img src="../img/imgexerc1.png" alt="Image exercice 1">
-        <p>Nous avons pu constaté 2 solutions possibles</p>
-        <ul>
-            <li>Solution 1: mkdir -p LinuxBash/{Jour1,Jour2,Jour3,Jour4,Jour5}</li>
-            <li id="#ancresol2">Solution 2: mkdir -p LinuxBash/Jour{1..5}</li>
-        </ul>
+    <div id="bodytext" class="container mt-5 ">
+        <div class="row pt-5 mb-5">
+            <h1 class="d-flex justify-content-center">Presentation des exercices de la semaine</h1>
+        </div>
+        
+        <div class="row">
+            <div class="col-4 ms-2">
+                <h2 class="d-flex ">Les outils necessaires</h2>
+            </div>
+        <div class="row">
+            <div class="col justify-content-center mx-2">
+                <p>Pour executé les commandes Bash il vous faut un terminal de commandes (un peu comme le CMD de windows) Vous pouvez utilisé l'OS Linux/Ubuntu ou encore télécharger le terminal Git Bash.</p>
+            </div>
+        </div>
+                
+        <div class="row">
+            <div class="col-4 mt-4 ms-2">
+                <h3 id="titreex1">Exercice 1 Bash</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col justify-content-center mx-2">
+                <p>Dans le premier exercice, nous devions créer un dossier "LinuxBash" et créer 5 sous dossiers nommés Jour 1 à Jour 5 en une seule ligne de commande.</p>
+                <p>cela doit ressembler à ceci:</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-5 justify-content-center mx-2">
+                <img id="imgex1" src="../img/imgexerc1.png" alt="Image exercice 1">
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="soluex1" class="col-4 justify-content-center my-3">
+                <p>Nous avons pu constaté 2 solutions possibles</p>
+                <ul>
+                    <li>Solution 1: mkdir -p LinuxBash/{Jour1,Jour2,Jour3,Jour4,Jour5}</li>
+                    <li id="#ancresol2">Solution 2: mkdir -p LinuxBash/Jour{1..5}</li>
+                </ul>
+            </div>
+        </div>  
+        
         <h3>Exercice 2 Bash</h3>
         <p>Dans le deuxième exercice, nous devions reproduire l'image ci dessous en partant du dossier "etudiant":</p>
         <img src="../img/imgexerc2.png" alt="Image exercice 2">
