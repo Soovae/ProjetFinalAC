@@ -9,7 +9,7 @@ h1{
     margin-right:100px;
     margin-left:100px;
     text-align:center;
-    padding-top:15px;
+    padding-top:50px;
     padding-bottom:15px;
 }
 
@@ -71,7 +71,7 @@ input:focus, textarea:focus{
     color:RGBa(0, 0, 0, 0.70)
 }
 
- 
+
 .formulaire-contact{
     
     border-radius: 15px;
