@@ -49,3 +49,46 @@ a{
 a:hover{
     color:white;
 }
+
+/* Formulaire de contact */
+
+input[type=text], input[type=email], select, textarea{
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid green; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input:focus, textarea:focus{
+    background-color:RGBa(6, 124, 58, 0.30);
+}
+
+#nom::placeholder, #prenom::placeholder, #email::placeholder, #subject::placeholder{
+    color:RGBa(0, 0, 0, 0.70)
+}
+
+ 
+.formulaire-contact{
+    
+    border-radius: 15px;
+    background-color: grey;
+    padding: 20px;
+    margin-left:250px;
+    margin-right:250px;
+}
+
+.body-contact{
+    background-color:grey;
+}
+
+.back-contact{
+    background-color:white;
+    margin-left:100px;
+    margin-right:100px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
