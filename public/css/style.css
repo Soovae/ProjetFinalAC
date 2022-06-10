@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(146, 125, 79);
+}
+
 h1{
     margin-top:25px;
     text-align:center;
@@ -5,12 +9,13 @@ h1{
 
 .portfolio{
     background-color:grey;
-    margin-top: 50px;
-    margin-right:100px;
+    margin-right: 100px;
     margin-left:100px;
     text-align:center;
     padding-top:50px;
     padding-bottom:15px;
+    border-left:3px solid black;
+    border-right:3px solid black;
 }
 
 .img-margin{
@@ -81,8 +86,8 @@ input:focus, textarea:focus{
     border-radius: 15px;
     background-color: grey;
     padding: 20px;
-    margin-left:250px;
-    margin-right:250px;
+    margin-left:400px;
+    margin-right:400px;
 }
 
 .body-contact{
@@ -90,11 +95,17 @@ input:focus, textarea:focus{
 }
 
 .back-contact{
-    background-color:white;
+    background-image:url(../img/imgbackcontact.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
     padding-top:50px;
     padding-bottom:50px;
     z-index: 3;
     margin-top: 50px;
+    margin-left:100px;
+    margin-right:100px;
+    border-left: 3px solid black;
+    border-right:3px solid black;
 }
 
 #border-map{
@@ -133,6 +144,7 @@ input:focus, textarea:focus{
     width: 100px;
     height: 100px;
 }
+
 
 /*footer*/
 
