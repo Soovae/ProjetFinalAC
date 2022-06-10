@@ -1,0 +1,20 @@
+#bdn{
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    display: block;
+    font-size: larger;
+}
+.nav-item{
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+.nav-link:hover{
+    color: red;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
