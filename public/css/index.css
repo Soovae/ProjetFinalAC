@@ -1,0 +1,66 @@
+#bdn{
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    display: block;
+    font-size: larger;
+    z-index: 5;
+}
+.nav-item{
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+.nav-link:hover{
+    color: red;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#titreaccueil{
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: underline;
+    border: 2px dotted gold;
+    padding: 5px;
+}
+
+#bienvenu{
+    position: relative;
+    background-color: gray;
+    padding-top: 15px;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 50px;
+    width: 300px;
+    height: 60px;
+    border-radius: 80px / 50px;
+}
+
+#corps{
+    background-image: url("../img/bgaccueil.jpg");
+    background-size: cover ;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+body{
+    background-color: rgb(146, 125, 79);
+}
+h2{
+    position: relative;
+    padding: 5px;
+    text-align: center;
+}
+.card-img-top{
+    padding-top: 10px;
+}
+#textfooter{
+    color: gold;
+}
+.fa-brands, .fa-discord{
+    color: purple;
+}
