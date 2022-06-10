@@ -5,6 +5,7 @@
     top: 0px;
     display: block;
     font-size: larger;
+    z-index: 5;
 }
 .nav-item{
     margin: 5px;
@@ -19,28 +20,38 @@
     height: 100px;
 }
 #titreaccueil{
-    display: block;
     position: relative;
     text-align: center;
     margin-top: 15%;
     text-decoration: underline;
     border: 2px dotted gold;
-    padding: 15px;
 }
 
 #bienvenu{
-    display: block;
     position: relative;
     background-color: gray;
     padding: 5px;
     text-align: center;
     opacity: 0.8;
     margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    border-radius: 80px / 50px;
 }
 
 #corps{
     background-image: url("../img/bgaccueil.jpg");
     background-size: cover ;
-    padding-left: 5%;
-    padding-right: 5%;
+    border: 3px solid black;
+}
+body{
+    background-color: rgb(146, 125, 79);
+}
+h2{
+    position: relative;
+    padding: 5px;
+    text-align: center;
+}
+.card-img-top{
+    padding-top: 10px;
 }
