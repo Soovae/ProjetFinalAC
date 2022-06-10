@@ -31,3 +31,21 @@ h1{
     margin-left:50px;
     margin-right:50px;
 }
+
+.attachment02{
+    height:500px;
+    background-image:url(../img/imgback02.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin:50px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color:white;
+}
