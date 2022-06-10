@@ -92,3 +92,16 @@ input:focus, textarea:focus{
     padding-top:50px;
     padding-bottom:50px;
 }
+
+#border-map{
+    padding:5px;
+    border: 1px solid black;
+    background-color:grey;
+    border-radius:15px; 
+}
+
+.map{
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;  
+}
