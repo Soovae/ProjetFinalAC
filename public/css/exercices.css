@@ -36,3 +36,12 @@
     position:relative;
     left:370px;
    }
+
+#top-exerc{
+    scroll-behavior: smooth;
+   }
+
+#Pu-exerc{
+    color:gold;
+    text-decoration: none;
+}

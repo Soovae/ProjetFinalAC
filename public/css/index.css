@@ -70,3 +70,12 @@ h2{
     position:relative;
     left:370px;
    }
+
+#top-ind{
+    scroll-behavior: smooth;
+}
+
+#Pu-index{
+    color:gold;
+    text-decoration: none;
+}

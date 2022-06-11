@@ -161,3 +161,11 @@ input:focus, textarea:focus{
  position:relative;
  left:370px;
 }
+
+#topcontact, #top-portfolio{
+    scroll-behavior: smooth;
+}
+
+#Pu-contact, #Pu-portfolio{
+    color:gold;
+}
