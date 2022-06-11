@@ -154,3 +154,10 @@ input:focus, textarea:focus{
 .fa-brands, .fa-discord{
     color: purple;
 }
+
+/*Boutton top*/
+
+#PageUp, #PageUp-po{
+ position:relative;
+ left:370px;
+}

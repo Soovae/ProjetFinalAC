@@ -29,3 +29,10 @@
 .fa-brands, .fa-discord{
     color: purple;
 }
+
+/*Boutton top*/
+
+#PageUp-ex{
+    position:relative;
+    left:370px;
+   }

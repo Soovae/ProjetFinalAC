@@ -63,3 +63,10 @@ h2{
 .fa-brands, .fa-discord{
     color: purple;
 }
+
+/*Button top*/
+
+#PageUp-ind{
+    position:relative;
+    left:370px;
+   }
