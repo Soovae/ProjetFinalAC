@@ -17,7 +17,7 @@
 
     <!--Nav bar-->
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav id="topcontact" class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid stiky-top" id="bdn">
             <div class="row">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -49,62 +49,65 @@
         </div>
     </nav>
 
-    <div id="corps" class="container">
-        <div class="back-contact">
-            <h1 class="mb-5">Contactez-nous !</h1>
-            <div class="formulaire-contact">
-                <form action="action_page.php">
-                    <label for="nom">Nom</label>
-                    <input type="text" id="nom" name="nom" placeholder="Votre nom">
-                    <label for="prenom">Prenom</label>
-                    <input type="text" id="prenom" name="prenom" placeholder="Votre prenom">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="Email" placeholder="Votre Email">
-                    <label for="pays">Pays</label>
-                    <select id="pays" name="pays">
-                        <option value="allemagne">Allemagne</option>
-                        <option value="belgique">Belgique</option>
-                        <option value="france">France</option>
-                        <option value="italie">Italie</option>
-                        <option value="royaume-Uni">Royaume-Uni</option>
-                        <option value="suisse">Suisse</option>
-                    </select>
-                    <label for="subject">Sujet</label>
-                    <textarea id="subject" name="subject" placeholder="Votre sujet..." style="height:200px"></textarea>
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">
-                        Submit
-                    </button>
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Message envoyer</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Merci pour votre message !
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Fermer</button>
-                                    <button type="button" class="btn btn-success">D'accord !</button>
-                                </div>
+    <!--Formulaire de contact-->
+
+    <div class="back-contact">
+        <h1 class="mb-5">Contactez-nous !</h1>
+        <div class="formulaire-contact">
+            <form action="action_page.php">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                <label for="prenom">Prenom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prenom">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" placeholder="Votre Email">
+                <label for="pays">Pays</label>
+                <select id="pays" name="pays">
+                    <option value="allemagne">Allemagne</option>
+                    <option value="belgique">Belgique</option>
+                    <option value="france">France</option>
+                    <option value="italie">Italie</option>
+                    <option value="royaume-Uni">Royaume-Uni</option>
+                    <option value="suisse">Suisse</option>
+                </select>
+                <label for="subject">Sujet</label>
+                <textarea id="subject" name="subject" placeholder="Votre sujet..." style="height:200px"></textarea>
+
+                <!--Modal du formulaire de contact-->
+
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Submit
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Message envoyer</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Merci pour votre message !
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn btn-success">D'accord !</button>
                             </div>
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="map">
-                <iframe id="border-map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.68766734184!2d4.339172115620876!3d50.85546777953323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38e84af80dd%3A0xe85cd9cd0218a4aa!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e0!3m2!1sfr!2sbe!4v1653590730407!5m2!1sfr!2sbe"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+                </div>
+            </form>
         </div>
+        <div class="map">
+            <iframe id="border-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.68766734184!2d4.339172115620876!3d50.85546777953323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38e84af80dd%3A0xe85cd9cd0218a4aa!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e0!3m2!1sfr!2sbe!4v1653590730407!5m2!1sfr!2sbe"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
     </div>
+
 
     <!--footer-->
 
@@ -113,8 +116,11 @@
             <p id="textfooter">© 2022 Copyright: <a href="https://discordapp.com/users/417398073686360064/"
                     target="_blank"><i class="fa-brands fa-discord"></i></a> BLOND Anthony & <a
                     href="https://discordapp.com/users/360831986031394817/" target="_blank"><i
-                        class="fa-brands fa-discord"></i></a> COURTEILLE Cyril - Molengeek - Formation Linux</p>
+                        class="fa-brands fa-discord"></i></a> COURTEILLE Cyril - Molengeek - Formation Linux
+                <button id="PageUp" type="button" class="btn btn-outline-success"><a id="Pu-contact" href="#topcontact">PageUp</a></button>
+            </p>
         </div>
+
     </footer>
 
 
