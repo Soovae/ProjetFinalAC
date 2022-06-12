@@ -48,12 +48,12 @@
             </div>
         </div>
     </nav>
-
+        
+    <!--Titre + explications-->
     <div id="bodytext" class="container mt-5 ">
         <div class="row pt-5 mb-5">
             <h1 class="d-flex justify-content-center">Presentation des exercices de la semaine</h1>
         </div>
-        
         <div class="row">
             <div class="col-4 ms-2">
                 <h2 class="d-flex ">Les outils necessaires</h2>
@@ -64,27 +64,31 @@
             </div>
         </div>
                 
+
+        <!--exo 1-->
+
+        <!--titre-->
         <div class="row">
             <div class="col-4 mt-4 ms-2">
-                <h3 id="titreex1">Exercice 1 Bash</h3>
+                <h3 class="titreex">Exercice 1 Bash</h3>
             </div>
         </div>
-
+        <!--texte-->
         <div class="row">
-            <div class="col justify-content-center mx-2">
+            <div class="texteex col justify-content-center mx-4">
                 <p>Dans le premier exercice, nous devions créer un dossier "LinuxBash" et créer 5 sous dossiers nommés Jour 1 à Jour 5 en une seule ligne de commande.</p>
                 <p>cela doit ressembler à ceci:</p>
             </div>
         </div>
-        
+        <!--image-->
         <div class="row">
             <div class="col-5 justify-content-center mx-2">
-                <img id="imgex1" src="../img/imgexerc1.png" alt="Image exercice 1">
+                <img class="imgex" src="../img/imgexerc1.png" alt="Image exercice 1">
             </div>
         </div>
-
+        <!--solution-->
         <div class="row">
-            <div id="soluex1" class="col-4 justify-content-center my-3">
+            <div id="solu1" class=" col-4 justify-content-center my-3">
                 <p>Nous avons pu constaté 2 solutions possibles</p>
                 <ul>
                     <li>Solution 1: mkdir -p LinuxBash/{Jour1,Jour2,Jour3,Jour4,Jour5}</li>
@@ -93,62 +97,141 @@
             </div>
         </div>  
         
-        <h3>Exercice 2 Bash</h3>
-        <p>Dans le deuxième exercice, nous devions reproduire l'image ci dessous en partant du dossier "etudiant":</p>
-        <img src="../img/imgexerc2.png" alt="Image exercice 2">
-        <p>Nous avons appris à utilisé la commande "mkdir" pour créer des dossiers dans l'exercice précédent
-            mais ce n'est pas la même chose pour créer un fichier, la commande qui est utilisée est "touch"
-        </p>
-        <p>Voici la solution : mkdir -p etudiant/{fichiers_john/{cours/{bureautique,reseaux,java},backups,bureau},
-            fichiers_bob/{films,musiques,bureau}} && touch etudiant/{fichiers_john/cours/{bureautique/cours_word.pdf,
-            reseaux/{intro_reseaux.pdf,exercice1.pdf},list_cours.txt},fichiers_bob/{films/{forrest_gump.avi,inception.avi},
-            musiques/{daftpunk1.mp3,happy.wav},log.txt}}
-        </p>
-        <h3>Exercice 3 Bash</h3>
-        <p>Dans le troisième exercice, nous devions donné le chemin absolu d'un fichier ou d'un repertoire en ce basant
-            sur
-            l'arborescence de l'exercice 2 (voir image ci dessus).
-        </p>
-        <p>Si vous voulez vous entrainez, vous pouvez telecharger le fichier .pdf</p>
-        <a href="../download/Ex-bis-1.pdf" download="Ex-bis-1.pdf" target="_blank"><img src="../img/pdfimgexerc.png"
-                alt="Image logo pdf"></a>
-        <p>Pour vous corrigez, vous pouvez téléchargé le document ci dessous pour comparer vos reponse !</p>
-        <a href="../download/Ex-bis-1.docx" download="Ex-bis-1.docx" target="_blank"><img src="../img/docximgexerc.png"
-                alt="Image logo docx"></a>
-        <h3>Exercice 4</h3>
-        <p>Dans le quatrième exercice, nous devions reproduire l'arborescence ci dessous en partant du dossier
-            "etudiant":</p>
-        <img src="../img/imgexerc4.jpg" alt="Image exercice 4">
-        <p>Comme nous avons appris à utilisé la commande "mkdir" pour créer des dossiers et "touch pour créer"
-            des fichiers, il est facile de realisé cela. Voici la solution:
-            mkdir -p etudiant/terre/{afrique/{cameroun,egypte},asie/{bouddhisme,france,italie},
-            backup,europe/{industrie,temporaire,union}}
-            && touch etudiant/terre/{afrique/egypte/{atomium.txt,brouillon.txt,pyramides.txt},
-            asie/{chine.txt,japon.txt,bouddhisme/lama.txt},europe/{industrie/liste.txt,temporaire/inutile.txt}}
-        </p>
-        <h3>Exercice 5 Bash</h3>
-        <p>Dans le cinquième exercice, comme pour l'exercice 3 nous devions completé un fichier .pdf sur:</p>
-        <ul>
-            <li>Les commandes générales</li>
-            <li>Créer/supprimer des fichiers et répertoires</li>
-            <li>copier/deplacer/renommer des dossiers/fichiers</li>
-        </ul>
-        <a href="../download/Exercices-bis-2.pdf" download="Exercices-bis-2.pdf" target="_blank"><img
-                src="../img/pdfimgexerc.png" alt="Image logo pdf"></a>
-        <p>Pour vous corrigez, vous pouvez téléchargé le document ci dessous pour comparer vos reponse !</p>
-        <h6>Exercice 6 Bash</h6>
-        <p>Dans le sixième exercice, nous devions créer dans notre bureau un dossier "batiment"
-            composer de 2 dossiers étages (étage 1 et étage 2) et dans chaque étage, 4 dossiers appartements (1..4)
-            qui contiennent chacun un dosier chambre, un dossier cuisine, un dossier salle de bain et un dossier salon.
-            voici à quoi cela devrait ressembler:
-        </p>
-        <img src="../img/imgexerc6.png" alt="Image exercice 6">
-        <p>Facile à faire avec "mkdir" toujours pour créer des dossiers et "touch" pour créer des fichiers et
-            rappelez vous aussi la <a href="#ancresol2">solution 2</a> de l'exercice 1
-        </p>
-        <p>Cela devrait donné ceci: mkdir -p batiment/etage{1..2}/appartement{1..4}/{salledebain,chambre,cuisine,salon}
-            Simple et efficace !
-        </p>
+
+        <!--exo 2-->
+
+        <!--titre-->
+        <div class="row">
+            <div class="col-4 mt-4 ms-2">
+                <h3 class="titreex">Exercice 2 Bash</h3>
+            </div>
+        </div>
+        <!--text + image-->
+        <div class="row">
+            <div class="texteex col justify-content-center mx-4">
+                <p>Dans le deuxième exercice, nous devions reproduire l'image ci dessous en partant du dossier "etudiant":</p>
+                <img class="imgex" src="../img/imgexerc2.png" alt="Image exercice 2">
+                <p>Nous avons appris à utilisé la commande "mkdir" pour créer des dossiers dans l'exercice précédent
+                mais ce n'est pas la même chose pour créer un fichier, la commande qui est utilisée est "touch"
+                </p>
+            </div>
+        </div>
+        <!--solution-->
+        <div class="row">
+            <div id="solu2" class="col-2 justify-content-center my-3">
+                <p>Voici la solution : mkdir -p etudiant/{fichiers_john/{cours/{bureautique,reseaux,java},backups,bureau}, fichiers_bob/{films,musiques,bureau}} && touch etudiant/{fichiers_john/cours/{bureautique/cours_word.pdf, reseaux/{intro_reseaux.pdf,exercice1.pdf},list_cours.txt},fichiers_bob/{films/{forrest_gump.avi,inception.avi}, musiques/{daftpunk1.mp3,happy.wav},log.txt}}
+                </p>
+            </div>
+        </div>
+
+
+        <!--exo 3-->
+
+        <!--titre-->
+        <div class="row">
+            <div class="titreex col-4 mt-4 ms-2">
+                <h3>Exercice 3 Bash</h3>
+            </div>
+        </div>
+        <!--texte-->
+        <div class="row">
+            <div class="texteex col justify-content-center mx-4">
+                <p>Dans le troisième exercice, nous devions donné le chemin absolu d'un fichier ou d'un repertoire en ce basant sur l'arborescence de l'exercice 2 (voir image ci dessus).
+                </p>
+                <p>Si vous voulez vous entrainez, vous pouvez telecharger le fichier .pdf</p>
+            </div>
+        </div>
+        <!--image-->
+        <div class="row">
+            <div class="col-5 justify-content-center mx-2 ">
+                <a href="../download/Ex-bis-1.pdf" download="Ex-bis-1.pdf" target="_blank"><img id="lienex1" src="../img/pdfimgexerc.png" alt="Image logo pdf"></a>
+            </div>
+        </div>
+        <!--solution-->
+        <div class="row mt-4">
+            <div id="solu3" class="col-4 justify-content-center my-3">
+                <p>Pour vous corrigez, vous pouvez téléchargé le document ci-dessous pour comparer vos réponses !</p>
+                <a href="../download/Ex-bis-1.docx" download="Ex-bis-1.docx" target="_blank"><img class="imgex2" src="../img/docximgexerc.png" alt="Image logo docx"></a>
+            </div>
+        </div>
+        
+        <!--exo 4-->
+
+        <!--titre-->
+        <div class="row">
+            <div class="titreex col-4 mt-4 ms-2">
+                <h3>Exercice 4</h3>
+            </div>
+        </div>
+        <!--texte + image-->
+        <div class="row">
+            <div class="texteex col justify-content-center mx-4">
+                <p>Dans le quatrième exercice, nous devions reproduire l'arborescence ci dessous en partant du dossier "etudiant":</p>
+                <img class="imgex mb-3" src="../img/imgexerc4.jpg" alt="Image exercice 4">
+                <p>Comme nous avons appris à utilisé la commande "mkdir" pour créer des dossiers et "touch pour créer" des fichiers, il est facile de realisé cela.</p>
+            </div>
+        </div>
+        <!--solution-->
+        <div class="row">
+            <div id="solu4" class="col-4 justify-content-center my-3">
+                <p>Voici la solution: mkdir -p etudiant/terre/{afrique/{cameroun,egypte},asie/{bouddhisme,france,italie}, backup,europe/{industrie,temporaire,union}} && touch etudiant/terre/{afrique/egypte/{atomium.txt,brouillon.txt,pyramides.txt}, asie/{chine.txt,japon.txt,bouddhisme/lama.txt} europe/{industrie/liste.txt,temporaire/inutile.txt}}</p>
+            </div>
+        </div>
+        
+        <!--exo 5-->
+
+        <!--titre-->
+        <div class="row">
+            <div class="titreex col-4 mt-4 ms-2">
+                <h3>Exercice 5 Bash</h3>
+            </div>
+        </div>
+        <!--texte + lien-->
+        <div class="row">
+            <div class="texteex col justify-content-center mx-4">
+                <p>Dans le cinquième exercice, comme pour l'exercice 3 nous devions completé un fichier .pdf sur:</p>
+                <ul>
+                    <li>Les commandes générales</li>
+                    <li>Créer/supprimer des fichiers et répertoires</li>
+                    <li>copier/deplacer/renommer des dossiers/fichiers</li>
+                </ul>
+                <a href="../download/Exercices-bis-2.pdf" download="Exercices-bis-2.pdf" target="_blank"><img id="lienex2" src="../img/pdfimgexerc.png" alt="Image logo pdf"></a>
+            </div>
+        </div>
+        <!--solution-->
+        <div class="row">
+            <div id="solu5" class="col-4 justify-content-center my-3">
+                <p>Pour vous corrigez, vous pouvez téléchargé le document ci dessous pour comparer vos reponse !</p>
+            </div>
+        </div>
+        
+        <!--exo 6-->
+
+        <!--titre-->
+        <div class="row">
+            <div class="titreex col-4 mt-4 ms-2">
+                <h3>Exercice 6 Bash</h3>
+            </div>
+        </div>
+        <!--texte + image-->
+        <div class="row">
+            <div class="texteex col justify-content-center mx-4">
+                <p>Dans le sixième exercice, nous devions créer dans notre bureau un dossier "batiment" composer de 2 dossiers étages (étage 1 et étage 2) et dans chaque étage, 4 dossiers appartements (1..4) qui contiennent chacun un dosier chambre, un dossier cuisine, un dossier salle de bain et un dossier salon. Voici à quoi cela devrait ressembler:
+                </p>
+                <img class="imgex3" src="../img/imgexerc6.png" alt="Image exercice 6">
+            </div>
+        </div>
+        <!--solution-->
+        <div class="row">
+            <div id="solu6" class="col-4 justify-content-center my-3">
+                <p>Facile à faire avec "mkdir" toujours pour créer des dossiers et "touch" pour créer des fichiers et
+                rappelez vous aussi la <a id="ancre1" href="#ancresol2">solution 2</a> de l'exercice 1
+                </p>
+                <p>Cela devrait donné ceci: mkdir -p batiment/etage{1..2}/appartement{1..4}/{salledebain,chambre,cuisine,salon}
+                Simple et efficace !
+                </p>
+            </div>
+        </div>
     </div>
 
     <!--footer-->
