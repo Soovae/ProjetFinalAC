@@ -169,3 +169,23 @@ input:focus, textarea:focus{
 #Pu-contact, #Pu-portfolio{
     color:gold;
 }
+
+/*CSS pour le Font Face*/
+
+@font-face{
+    font-family: 'Medieval Sharp';
+    src: local("MedievalSharp-Regular"),
+    url(../font/MedievalSharp-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Jost', sans-serif;
+    src: local("Jost-VariableFont-wght"),
+         local("Jost-Italic-VariableFont-wght")
+         url("../font/Jost-VariableFont_wght.ttf"),
+         url("../font/Jost-Italic-VariableFont_wght.ttf");
+}
+
+h1{
+    font-family: 'Medieval Sharp';
+}

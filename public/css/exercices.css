@@ -118,3 +118,29 @@ h3{
     color:gold;
     text-decoration: none;
 }
+
+/*CSS pour le Font Face*/
+
+@font-face{
+    font-family: 'Medieval Sharp';
+    src: local("MedievalSharp-Regular"),
+    url(../font/MedievalSharp-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Jost', sans-serif;
+    src: local("Jost-VariableFont-wght"),
+         local("Jost-Italic-VariableFont-wght")
+         url("../font/Jost-VariableFont_wght.ttf"),
+         url("../font/Jost-Italic-VariableFont_wght.ttf");
+}
+
+h1, h2, h3{
+    font-family: 'Medieval Sharp';
+}
+
+p{
+    font-family: 'Jost', sans-serif;
+}
+
+
