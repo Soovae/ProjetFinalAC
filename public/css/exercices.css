@@ -20,7 +20,11 @@
     width: 100px;
     height: 100px;
 }
-
+#audioplayer{
+    width: 200px;
+    position: relative;
+    top: 25px;
+}
 /*footer*/
 
 #textfooter{
@@ -76,7 +80,7 @@ h3{
     width: 200px;
     height: 200px;
     position: relative;
-    left: 35%;
+    left: 40%;
 }
 .imgex2{
     position: relative;

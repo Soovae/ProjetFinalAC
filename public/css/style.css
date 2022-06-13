@@ -144,7 +144,11 @@ input:focus, textarea:focus{
     width: 100px;
     height: 100px;
 }
-
+#audioplayer{
+    width: 200px;
+    position: relative;
+    top: 25px;
+}
 
 /*footer*/
 

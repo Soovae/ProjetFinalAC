@@ -19,6 +19,11 @@
     width: 100px;
     height: 100px;
 }
+#audioplayer{
+    width: 200px;
+    position: relative;
+    top: 25px;
+}
 #titreaccueil{
     position: relative;
     text-align: center;
